@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <cache-path name="shared_cards" path="shared_cards/" />
+    <cache-path name="export_vcards" path="export_vcards/" />
+    <cache-path name="export_qrcodes" path="export_qrcodes/" />
+    <cache-path name="card_images" path="card_images/" />
+    <external-cache-path name="external_card_images" path="card_images/" />
+    <files-path name="my_cards" path="cards/" />
+    <files-path name="profile_photos" path="profile_photos/" />
+</paths>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<host-apdu-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/nfc_hce_service_desc"
+    android:requireDeviceUnlock="false">
+    <aid-group
+        android:description="@string/nfc_card_aid_group"
+        android:category="other">
+        <!-- CardMate Business Card Application AID -->
+        <aid-filter android:name="F0010203040506" />
+        <!-- Standard NDEF Tag Application AID (D2760000850101) for peer-to-peer tap exchange -->
+        <aid-filter android:name="D2760000850101" />
+    </aid-group>
+</host-apdu-service>

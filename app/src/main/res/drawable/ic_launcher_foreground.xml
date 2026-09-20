@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 1. Corner Scanner Reticles (Card Scanning Aura) -->
+    <path
+        android:pathData="M26,30 L26,24 L32,24 M76,24 L82,24 L82,30 M26,78 L26,84 L32,84 M82,78 L82,84 L76,84"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeColor="#38BDF8" />
+
+    <!-- 2. Ambient Card Shadow -->
+    <path
+        android:pathData="M29,35 h50 a5,5 0 0 1 5,5 v36 a5,5 0 0 1 -5,5 h-50 a5,5 0 0 1 -5,-5 v-36 a5,5 0 0 1 5,-5 z"
+        android:fillColor="#50000000" />
+
+    <!-- 3. Digital Business Card Body -->
+    <path
+        android:pathData="M28,32 h52 a5,5 0 0 1 5,5 v36 a5,5 0 0 1 -5,5 h-52 a5,5 0 0 1 -5,-5 v-36 a5,5 0 0 1 5,-5 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="32"
+                android:endX="85"
+                android:endY="78"
+                android:type="linear">
+                <item android:color="#1E293B" android:offset="0.0" />
+                <item android:color="#0F172A" android:offset="0.7" />
+                <item android:color="#042F2E" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 4. Card Glowing Border -->
+    <path
+        android:pathData="M28,32 h52 a5,5 0 0 1 5,5 v36 a5,5 0 0 1 -5,5 h-52 a5,5 0 0 1 -5,-5 v-36 a5,5 0 0 1 5,-5 z"
+        android:strokeWidth="1.6"
+        android:strokeColor="#2DD4BF"
+        android:fillColor="#00000000" />
+
+    <!-- 5. Gold NFC Smart Chip -->
+    <!-- Chip Base -->
+    <path
+        android:pathData="M33,39 h11 a2,2 0 0 1 2,2 v8 a2,2 0 0 1 -2,2 h-11 a2,2 0 0 1 -2,-2 v-8 a2,2 0 0 1 2,-2 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="31"
+                android:startY="39"
+                android:endX="46"
+                android:endY="51"
+                android:type="linear">
+                <item android:color="#FCD34D" android:offset="0.0" />
+                <item android:color="#F59E0B" android:offset="0.5" />
+                <item android:color="#D97706" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Chip Internal Contacts Pattern -->
+    <path
+        android:pathData="M31,45 h15 M38,39 v12 M35,42 h6 M35,48 h6"
+        android:strokeWidth="0.8"
+        android:strokeColor="#78350F" />
+
+    <!-- 6. NFC Wave Signals (Top Right of Card) -->
+    <path
+        android:pathData="M71,39 a4,4 0 0 1 4,4 M68,36 a8,8 0 0 1 8,8"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:strokeColor="#5EEAD4" />
+
+    <!-- 7. Profile Avatar Silhouette on Card -->
+    <path
+        android:pathData="M52,42 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M46,49 c0,-2.5 3,-3 6,-3 c3,0 6,0.5 6,3 v1 h-12 z"
+        android:fillColor="#38BDF8" />
+
+    <!-- 8. Card Text / Contact Information Stripes -->
+    <path
+        android:pathData="M61,42 h14"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:strokeColor="#F8FAFC" />
+    <path
+        android:pathData="M61,47 h9"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeColor="#94A3B8" />
+    <path
+        android:pathData="M32,58 h44"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeColor="#E2E8F0" />
+    <path
+        android:pathData="M32,64 h30"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:strokeColor="#2DD4BF" />
+
+    <!-- 9. Optical Laser Scanner Beam across Card -->
+    <path
+        android:pathData="M22,53 L86,53"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="22"
+                android:startY="53"
+                android:endX="86"
+                android:endY="53"
+                android:type="linear">
+                <item android:color="#002DD4BF" android:offset="0.0" />
+                <item android:color="#A7F3D0" android:offset="0.5" />
+                <item android:color="#002DD4BF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 10. AI Sparkle Stars -->
+    <!-- Large AI Star (Top Right) -->
+    <path
+        android:pathData="M81,26 L82.5,30.5 L87,32 L82.5,33.5 L81,38 L79.5,33.5 L75,32 L79.5,30.5 Z"
+        android:fillColor="#FDE047" />
+    <!-- Small AI Sparkle (Bottom Left) -->
+    <path
+        android:pathData="M23,73 L24,75.5 L26.5,76.5 L24,77.5 L23,80 L22,77.5 L19.5,76.5 L22,75.5 Z"
+        android:fillColor="#38BDF8" />
+</vector>

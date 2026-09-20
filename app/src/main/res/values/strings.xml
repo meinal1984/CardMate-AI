@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CardMate AI</string>
+    <string name="widget_name">CardMate Quick Cards &amp; Scan</string>
+    <string name="widget_description">Quickly access frequent cards or trigger instant business card AI scanning.</string>
+    <string name="nfc_hce_service_desc">CardMate Contactless Business Card Beam Service</string>
+    <string name="nfc_card_aid_group">Digital Business Card NDEF Emulation</string>
+</resources>

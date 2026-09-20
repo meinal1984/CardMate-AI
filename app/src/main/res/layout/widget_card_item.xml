@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_item_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/widget_item_background"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Avatar Initial Circle -->
+    <TextView
+        android:id="@+id/widget_item_initial"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/widget_initial_circle"
+        android:gravity="center"
+        android:text="T"
+        android:textColor="#14B8A6"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <!-- Card Info -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/widget_item_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Card Holder Name"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/widget_item_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Tech"
+                android:textColor="#14B8A6"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/widget_item_title_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Job Title • Company"
+            android:textColor="#94A3B8"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/widget_item_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="+880 1712-345678"
+            android:textColor="#2DD4BF"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <!-- Arrow icon -->
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="6dp"
+        android:src="@drawable/ic_widget_arrow" />
+</LinearLayout>
